@@ -1,0 +1,2 @@
+[07-Aug-2017 14:32:40 America/Chicago] PHP Parse error:  syntax error, unexpected '_POST' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/viajesexl/public_html/mail.calidad.php on line 11
+[07-Aug-2017 14:40:58 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/viajesexl/public_html/mail.calidad.php on line 54
