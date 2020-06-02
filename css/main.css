@@ -1,0 +1,2140 @@
+@charset 'UTF-8';
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html
+{
+    font-family: sans-serif;
+    /* 1 */
+
+        -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body
+{
+    margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary
+{
+    display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video
+{
+    display: inline-block;
+    /* 1 */
+
+    vertical-align: baseline;
+    /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls])
+{
+    display: none;
+
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template
+{
+    display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a
+{
+    background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover
+{
+    outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title]
+{
+    border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong
+{
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn
+{
+    font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1
+{
+    font-size: 2em;
+
+    margin: .67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark
+{
+    color: #000; 
+    background: #ff0;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small
+{
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup
+{
+    font-size: 75%;
+    line-height: 0;
+
+    position: relative;
+
+    vertical-align: baseline;
+}
+
+sup
+{
+    top: -.5em;
+}
+
+sub
+{
+    bottom: -.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img
+{
+    border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root)
+{
+    overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure
+{
+    margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr
+{
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre
+{
+    overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp
+{
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea
+{
+    /* 1 */
+    font: inherit;
+    /* 2 */
+
+    margin: 0;
+
+    color: inherit;
+    /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button
+{
+    overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select
+{
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit']
+{
+    /* 2 */
+    cursor: pointer;
+
+    -webkit-appearance: button;
+    /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled]
+{
+    cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner
+{
+    padding: 0; 
+
+    border: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input
+{
+    line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type='checkbox'],
+input[type='radio']
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button
+{
+    height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type='search']
+{
+    /* 1 */
+    -webkit-box-sizing: content-box;
+    /* 2 */
+            box-sizing: content-box; 
+
+    -webkit-appearance: textfield;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration
+{
+    -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset
+{
+    margin: 0 2px;
+    padding: .35em .625em .75em; 
+
+    border: 1px solid #c0c0c0;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend
+{
+    /* 1 */
+    padding: 0;
+
+    border: 0;
+    /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea
+{
+    overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup
+{
+    font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table
+{
+    border-spacing: 0; 
+    border-collapse: collapse;
+}
+
+td,
+th
+{
+    padding: 0;
+}
+
+/* ==========================================================================
+   Estilos Generales
+   ========================================================================== */
+html
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; 
+
+    color: #000;
+    background-color: #f5f6f6;
+}
+
+*,
+*:before,
+*:after
+{
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+::-moz-selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+canvas,
+iframe,
+img,
+svg
+{
+    vertical-align: middle;
+}
+
+fieldset
+{
+    margin: 0;
+    padding: 0; 
+
+    border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin-top: 0;
+}
+
+h2,
+h3
+{
+    color: #434343;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+h3
+{
+    font-size: 1.5em;
+}
+
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+p
+{
+    line-height: 1.4em;
+}
+
+strong,
+em
+{
+    font-weight: 700; 
+    font-style: normal;
+}
+
+@media screen and (max-width: 758px)
+{
+    html
+    {
+        font-size: 16px;
+    }
+}
+
+/* ==========================================================================
+   Estilos Auxiliares
+   ========================================================================== */
+.clearfix:after
+{
+    display: table;
+    clear: both; 
+
+    content: '';
+}
+
+/* ==========================================================================
+   Estilos Header Principal
+   ========================================================================== */
+.separador,
+.header-principal nav::before,
+.header-principal .logo-viajes-excelsior::before,
+.header-principal .logo-travel-cafe::before,
+.header-principal .redes-sociales::before
+{
+    position: absolute;
+
+    content: ' ';
+
+    background-color: #fff;
+}
+
+.header-principal
+{
+    position: fixed;
+    z-index: 10; 
+    top: 0;
+
+    width: 1280px;
+    height: 124px;
+    margin: 0 auto;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+}
+.header-principal nav
+{
+    position: relative; 
+
+    width: 63.671875%;
+}
+.header-principal nav ul
+{
+    float: right;
+}
+.header-principal nav::before
+{
+    top: 46px;
+    right: 0;
+    left: 0; 
+
+    height: 1px;
+}
+.header-principal .logo-viajes-excelsior,
+.header-principal .logo-travel-cafe,
+.header-principal nav
+{
+    float: left;
+
+    height: 124px;
+}
+.header-principal .logo-viajes-excelsior,
+.header-principal .logo-travel-cafe
+{
+    position: relative; 
+
+    width: 18.1640625%;
+}
+.header-principal .logo-viajes-excelsior img,
+.header-principal .logo-travel-cafe img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110px;
+    height: auto;
+    margin: -45px 0 0 -60px;
+}
+.header-principal .logo-viajes-excelsior::before
+{
+    top: 0;
+    right: 0;
+    bottom: 0; 
+
+    width: 1px;
+}
+.header-principal .logo-travel-cafe::before
+{
+    top: 0;
+    bottom: 0; 
+    left: 0;
+
+    width: 1px;
+}
+.header-principal .redes-sociales
+{
+    position: relative;
+
+    width: 96px;
+    height: 45px;
+}
+.header-principal .redes-sociales li
+{
+    float: left;
+
+    width: 50%;
+    height: 45px;
+    padding-top: 10px;
+}
+.header-principal .redes-sociales img
+{
+    display: block;
+
+    width: auto;
+    height: 24px;
+    margin: 0 auto;
+}
+.header-principal .redes-sociales::before
+{
+    top: 0;
+    bottom: 0;
+    left: 0; 
+
+    width: 1px;
+}
+.header-principal .secciones
+{
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+
+    height: 78px;
+}
+.header-principal .secciones li
+{
+    font-size: .6em;
+
+    position: relative; 
+
+    float: left;
+
+    padding: 42px 19px 0;
+
+    text-align: center;
+}
+.header-principal .secciones li a
+{
+    text-decoration: none; 
+
+    color: #fff;
+}
+.header-principal .secciones li.activo::before
+{
+    position: absolute;
+    top: 1px;
+    left: 0; 
+
+    width: 100%;
+    height: 3px;
+
+    content: ' ';
+
+    background-color: #44fdff;
+}
+
+.btn-mostrar-menu-movil,
+.btn-cerrar-menu-movil
+{
+    position: absolute;
+
+    width: 16px;
+    height: 16px;
+
+    cursor: pointer;
+}
+
+.btn-mostrar-menu-movil
+{
+    top: 50%;
+    right: 16px;
+
+    display: none; 
+
+    margin-top: -8px;
+}
+
+.btn-cerrar-menu-movil
+{
+    top: 16px;
+    right: 16px;
+}
+
+.menu-movil
+{
+    font-size: .8em;
+
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 200px;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    background-color: rgba(0, 0, 0, .8);
+
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+}
+.menu-movil h3
+{
+    font-size: 1.3em;
+
+    margin: 0;
+    padding: 40px 16px 25px;
+
+    color: #fff;
+}
+.menu-movil ul,
+.menu-movil li
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+.menu-movil li
+{
+    padding: 0 16px 25px;
+}
+.menu-movil li.activo a
+{
+    color: #44fdff;
+}
+.menu-movil a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+.menu-movil.activo
+{
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+@media screen and (max-width: 1280px)
+{
+    .header-principal
+    {
+        width: 960px;
+    }
+    .header-principal .secciones
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0; 
+
+        width: 100%;
+        height: 78px;
+        padding-left: 0;
+    }
+    .header-principal .secciones li
+    {
+        width: 16.666666%;
+        padding: 32px 0 0;
+    }
+    .header-principal .logo-viajes-excelsior img,
+    .header-principal .logo-travel-cafe img
+    {
+        width: 120px;
+        margin: -45px 0 0 -60px;
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+    .header-principal
+    {
+        width: 758px;
+    }
+    .header-principal .secciones
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0; 
+
+        width: 100%;
+        height: 78px;
+        padding-left: 0;
+    }
+    .header-principal .secciones li
+    {
+        width: 16.666666%;
+        padding: 32px 0 0;
+    }
+    .header-principal .logo-viajes-excelsior img,
+    .header-principal .logo-travel-cafe img
+    {
+        width: 100px;
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .header-principal
+    {
+        width: 100%;
+        height: 54px;
+    }
+    .header-principal .logo-travel-cafe::before,
+    .header-principal .secciones::before,
+    .header-principal .redes-sociales::before,
+    .header-principal nav::before
+    {
+        content: none;
+    }
+    .header-principal .logo-viajes-excelsior,
+    .header-principal .logo-travel-cafe
+    {
+        width: 80px;
+        height: 54px;
+    }
+    .header-principal .logo-viajes-excelsior img,
+    .header-principal .logo-travel-cafe img
+    {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+
+        display: block; 
+
+        width: 70px;
+        margin: 4px auto 0;
+        padding: 0 5px;
+    }
+    .header-principal .secciones,
+    .header-principal .redes-sociales,
+    .header-principal nav
+    {
+        display: none;
+    }
+    .header-principal .logo-viajes-excelsior::before
+    {
+        top: 8px;
+        right: 0;
+        bottom: 8px; 
+
+        width: 1px;
+    }
+    .btn-mostrar-menu-movil
+    {
+        display: block;
+    }
+}
+
+/* ==========================================================================
+   Estilos Footer
+   ========================================================================== */
+.footer-principal
+{
+    margin-bottom: 70px; 
+    /*padding: 0 50px;*/
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+}
+.footer-principal p,
+.footer-principal a
+{
+    margin: 0; 
+
+    text-decoration: none;
+
+    color: #6c6c6c;
+}
+.footer-principal .direccion
+{
+    margin-bottom: 0px;
+}
+.footer-principal .direccion p
+{
+    font-size: .9em;
+}
+.footer-principal .direccion a
+{
+    font-size: 1em;
+    font-weight: 700;
+}
+.footer-principal .contacto {
+    float: left;
+    width: 60%;
+    margin: 0px 0px 25px;
+}
+.footer-principal .mapa
+{
+    float: right;
+    width: 40%;
+    margin: 0px 0px 25px;
+}
+.footer-principal .contacto
+{
+    /*padding-right: 50px;*/
+}
+.footer-principal .telefono
+{
+    font-size: .9em;
+    font-weight: 700;
+
+    margin-bottom: 25px; 
+
+    color: #6c6c6c;
+}
+.footer-principal .mapa div
+{
+    position: relative;
+
+    width: 100%;
+    padding-top: 38.330494%;
+}
+.footer-principal .mapa iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0; 
+
+    width: 100%;
+    height: 100%;
+}
+.footer-principal .afiliados
+{
+    font-weight: 300; 
+
+    width: 100%;
+
+    text-align: center;
+}
+.footer-principal .afiliados li
+{
+    float: left;
+
+    /*width: 33.333333%;*/
+    width: 25%;
+    padding: 0 10px;
+}
+.footer-principal .afiliados img
+{
+    display: block;
+    /*width: 200px;*/
+    max-width: 180px;
+    height: auto;
+    margin: 0 auto;
+}
+.footer-principal .legales
+{
+    font-size: .9em;
+
+    margin: 15px 0; 
+
+    text-align: center;
+}
+.footer-principal .legales a
+{
+    color: #000;
+}
+
+@media screen and (max-width: 960px)
+{
+    .footer-principal .direccion
+    {
+        height: auto;
+    }
+    .footer-principal .contacto,
+    .footer-principal .mapa
+    {
+        float: none; 
+
+        width: 100%;
+        padding: 0 0 25px;
+    }
+    .footer-principal .afiliados li
+    {
+        width: 50%;
+    }
+    .footer-principal .legales
+    {
+        clear: both; 
+
+        margin: 50px 0;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .footer-principal
+    {
+        padding: 0 16px;
+    }
+    .footer-principal .afiliados li
+    {
+        float: none; 
+
+        width: 100%;
+    }
+}
+
+a.boton-chat-whatsapp
+{
+    font-size: 18px;
+    line-height: 44px;
+
+    position: fixed;
+    z-index: 999; 
+    right: 16px;
+    bottom: 16px;
+
+    height: 44px;
+    padding: 0 16px;
+
+    -webkit-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease;
+
+    color: #fff;
+    border-radius: 8px;
+    background-color: #00a859;
+}
+a.boton-chat-whatsapp img
+{
+    display: inline-block;
+
+    width: 14px;
+    margin-right: 4px;
+
+    -webkit-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); 
+    vertical-align: baseline;
+}
+a.boton-chat-whatsapp:hover,
+a.boton-chat-whatsapp:focus
+{
+    font-size: 22px;
+}
+a.boton-chat-whatsapp:hover img,
+a.boton-chat-whatsapp:focus img
+{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
+}
+
+.contendor-general
+{
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 124px;
+}
+
+.principal,
+.secundario
+{
+    padding: 25px 50px;
+}
+
+.principal
+{
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1280px)
+{
+    .contendor-general
+    {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+    .contendor-general
+    {
+        width: 758px;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .contendor-general
+    {
+        width: 100%;
+        padding-top: 54px;
+    }
+    .principal,
+    .secundario
+    {
+        padding: 25px 16px;
+    }
+}
+
+/* ==========================================================================
+   Estilos listas
+   ========================================================================== */
+.listado
+{
+    margin: 0;
+    padding: 0 25px;
+}
+.listado li
+{
+    padding: 0 0 25px; 
+
+    list-style-type: disc;
+}
+
+/* ==========================================================================
+   Estilos contenido principal
+   ========================================================================== */
+.hero
+{
+    position: relative;
+
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.hero > img
+{
+    position: absolute;
+    top: 0;
+    left: 0; 
+
+    width: 100%;
+}
+
+.ideas-para-viajar
+{
+    width: 100%;
+}
+
+.frase-luna-de-miel
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 16px;
+    left: 16px; 
+
+    width: 400px;
+    height: auto;
+}
+.frase-luna-de-miel img
+{
+    width: 100%;
+    height: auto;
+}
+
+.locacion-nombre
+{
+    font-size: 3em;
+    line-height: .8em;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    left: 200px;
+
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+}
+.locacion-nombre span
+{
+    font-size: .7em; 
+    font-weight: 300;
+}
+
+.resalte
+{
+    font-size: 1.2em;
+    color: #6c6c6c;
+    text-align: center;
+}
+
+.resumen-principal,
+.promo-principal
+{
+    float: left;
+}
+
+.resumen-principal
+{
+    width: 66.8376069%;
+    padding-right: 50px;
+}
+.resumen-principal.completo
+{
+    width: 100%;
+}
+
+.promo-principal
+{
+    position: relative;
+
+    float: right; 
+
+    width: 33.1623931%;
+    padding: 0 16px 16px;
+
+    text-align: center;
+
+    color: #6c6c6c;
+}
+.promo-principal img
+{
+    width: 60%;
+    margin: 0 auto 25px;
+}
+.promo-principal::before
+{
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+
+    width: 1px;
+
+    content: ' ';
+
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 960px)
+{
+    .frase-luna-de-miel
+    {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+
+        width: 500px;
+        height: 93px;
+        margin: -46px 0 0 -250px;
+    }
+    .resumen-principal,
+    .promo-principal
+    {
+        float: none; 
+
+        width: 100%;
+        padding: 0;
+    }
+    .promo-principal
+    {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .promo-principal::before
+    {
+        content: none;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .promo-principal
+    {
+        width: 90%;
+    }
+    .frase-luna-de-miel
+    {
+        width: 280px;
+        height: 52px;
+        margin: -26px 0 0 -140px;
+    }
+}
+
+/* ==========================================================================
+   Estilos contenido secundario
+   ========================================================================== */
+.fichas-destinos
+{
+    display: table;
+    clear: both; 
+
+    margin: -25px;
+
+    content: '';
+}
+.fichas-destinos ul,
+.fichas-destinos li
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+.fichas-destinos h3
+{
+    font-size: 1em;
+
+    margin: 4px 0 8px;
+}
+.fichas-destinos ul
+{
+    margin-left: -5px;
+}
+.fichas-destinos li
+{
+    float: left;
+
+    width: 25%;
+    padding: 0 0 0 2px;
+}
+.fichas-destinos a
+{
+    display: block; 
+
+    text-decoration: none;
+
+    border: none;
+}
+.fichas-destinos .ilustracion img
+{
+    width: 100%;
+}
+.fichas-destinos .pase
+{
+    display: table;
+    clear: both; 
+
+    width: 100%;
+    padding: 8px;
+
+    content: '';
+}
+.fichas-destinos .boton
+{
+    font-size: .8em;
+    line-height: 44px;
+
+    float: right;
+
+    height: 44px;
+    padding: 0 16px;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    background: #f29b3f;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+}
+.fichas-destinos .boton:hover
+{
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+            box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+}
+
+.informacion-hero
+{
+    position: relative;
+
+    width: 100%;
+    padding-bottom: 42.7350427%;
+}
+.informacion-hero .pie
+{
+    font-weight: 700;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 25px;
+    left: 25px;
+
+    margin: 0; 
+
+    color: #fff;
+}
+.informacion-hero img
+{
+    position: absolute;
+    top: 0;
+    left: 0; 
+
+    width: 100%;
+}
+
+.informacion-pagina
+{
+    padding: 25px; 
+
+    background-color: #fff;
+}
+
+.informacion-ilustracion,
+.informacion-ilustracion-pie-pagina
+{
+    float: right;
+
+    margin: 0 0 25px 25px;
+}
+
+.informacion-ilustracion-pie-pagina img
+{
+    width: 100%;
+}
+
+.informacion-ilustracion-pie-pagina p
+{
+    font-size: 12px; 
+
+    margin: 0;
+    padding: 8px;
+
+    color: #fff;
+    background-color: #000;
+}
+
+.tip-box
+{
+    position: relative;
+
+    margin-bottom: 25px;
+}
+.tip-box img
+{
+    position: absolute;
+    top: 50%;
+    left: 24px;
+
+    width: 92px;
+    height: 92px;
+    margin-top: -41px;
+}
+.tip-box > div
+{
+    padding-left: 140px;
+}
+.tip-box h3,
+.tip-box p
+{
+    margin: 0;
+}
+.tip-box strong
+{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.6em;
+
+    color: #6c6c6c;
+}
+
+.btn-ver-mas-destinos
+{
+    line-height: 50px;
+
+    display: block;
+
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+
+    cursor: pointer;
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    background-color: #f29b3f;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 2px transparent;
+}
+.btn-ver-mas-destinos:hover
+{
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+            box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+}
+
+@media screen and (max-width: 1280px)
+{
+    .informacion-ilustracion,
+    .informacion-ilustracion-pie-pagina
+    {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+    .fichas-destinos li
+    {
+        width: 50%;
+    }
+    .informacion-ilustracion,
+    .informacion-ilustracion-pie-pagina
+    {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .fichas-destinos
+    {
+        margin: -25px -8px;
+    }
+    .informacion-pagina
+    {
+        padding: 25px 8px 85px;
+    }
+    .informacion-ilustracion,
+    .informacion-ilustracion-pie-pagina
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .fichas-destinos li
+    {
+        width: 100%;
+    }
+    .tip-box
+    {
+        position: relative;
+
+        margin-bottom: 25px;
+    }
+    .tip-box img
+    {
+        position: static;
+        top: auto;
+        left: auto;
+
+        display: block; 
+
+        width: 92px;
+        height: 92px;
+        margin: 0 auto 25px;
+    }
+    .tip-box > div
+    {
+        padding-left: 0;
+    }
+}
+
+/* ==========================================================================
+   Estilos Galería principal
+   ========================================================================== */
+.galeria-principal,
+.galeria-principal .slide,
+.galeria-principal img
+{
+    width: 100%;
+}
+
+.galeria-principal,
+.galeria-principal .slide
+{
+    position: absolute;
+}
+
+.galeria-principal .slide
+{
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+
+    opacity: 0;
+}
+.galeria-principal .slide.activo
+{
+    opacity: 1;
+}
+
+/* ==========================================================================
+   Estilos Galería destinos
+   ========================================================================== */
+.galeria-destinos
+{
+    display: table;
+    clear: both; 
+
+    margin: -25px -25px 50px;
+
+    content: '';
+}
+.galeria-destinos ul
+{
+    margin-left: -2px;
+}
+.galeria-destinos li
+{
+    float: left;
+
+    width: 50%;
+    padding: 0 0 2px 2px;
+}
+.galeria-destinos img
+{
+    position: relative;
+
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 960px)
+{
+    .galeria-destinos .btn-mover
+    {
+        top: 50%;
+
+        width: 44px;
+        height: 44px;
+        margin-top: -22px;
+    }
+    .galeria-destinos .btn-mover.atras
+    {
+        left: 12px;
+    }
+    .galeria-destinos .btn-mover.adelante
+    {
+        right: 12px;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .galeria-destinos
+    {
+        margin: -25px -8px 50px;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .galeria-destinos li
+    {
+        width: 100%;
+    }
+}
+
+/* ==========================================================================
+   Estilos Galería destinos
+   ========================================================================== */
+.galeria-carrousel
+{
+    position: relative; 
+
+    width: 100%;
+    padding-bottom: 42.735042%;
+
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+}
+.galeria-carrousel .galeria,
+.galeria-carrousel .btn-mover,
+.galeria-carrousel .slide
+{
+    position: absolute; 
+
+    width: 100%;
+}
+.galeria-carrousel .slide
+{
+    z-index: 0;
+
+    overflow: hidden;
+
+    padding-bottom: 42.735042%;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+
+    opacity: 0;
+}
+.galeria-carrousel .slide > img
+{
+    width: 100%;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}
+.galeria-carrousel .slide.activo
+{
+    z-index: 1; 
+
+    opacity: 1;
+}
+.galeria-carrousel .btn-mover
+{
+    z-index: 2;
+    top: 50%;
+
+    display: block;
+
+    width: 75px;
+    height: 75px;
+    margin-top: -37px;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+
+    opacity: 1;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+}
+.galeria-carrousel .btn-mover:hover
+{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+.galeria-carrousel .btn-mover.atras
+{
+    left: 25px;
+}
+.galeria-carrousel .btn-mover.adelante
+{
+    right: 25px;
+}
+.galeria-carrousel .ficha-destino
+{
+    position: absolute;
+    z-index: 2;
+    right: 175px;
+    bottom: 50px; 
+    left: 175px;
+
+    width: 50%;
+}
+.galeria-carrousel .ficha-destino h3,
+.galeria-carrousel .ficha-destino p
+{
+    margin: 0 0 10px;
+
+    color: #fff;
+}
+.galeria-carrousel .titulo
+{
+    font-size: 1.6em;
+    line-height: 1em;
+}
+.galeria-carrousel .descripcion
+{
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+.galeria-carrousel .btn-leer-mas
+{
+    line-height: 44px;
+
+    position: relative;
+
+    display: block;
+    float: right;
+
+    width: 170px;
+    height: 44px;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+    text-decoration: none;
+
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    background-color: #47a0d8;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 2px transparent;
+}
+.galeria-carrousel .btn-leer-mas:hover
+{
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+            box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+}
+.galeria-carrousel .btn-leer-mas img
+{
+    position: relative;
+
+    width: 21px;
+    height: 26px;
+    margin: 0 12px;
+}
+.galeria-carrousel .btn-leer-mas span
+{
+    padding: 0 20px;
+}
+.galeria-carrousel .btn-leer-mas::before
+{
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    left: 45px;
+
+    width: 1px;
+
+    content: ' ';
+
+    background-color: #245b76;
+}
+
+/* ==========================================================================
+   Estilos Forma
+   ========================================================================== */
+.forma
+{
+    width: 100%;
+    /*padding: 75px 175px;*/
+    padding: 0px;
+    /*display: none;*/
+}
+.forma p
+{
+    font-size: 1.8em;
+
+    margin: 0;
+    padding: 0 75px 25px; 
+
+    text-align: center;
+}
+.forma ul,
+.forma li
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+.forma li
+{
+    position: relative;
+
+    min-height: 54px;
+    margin-bottom: 8px;
+}
+.forma .campos .mensaje,
+.forma .campos .mensaje textarea
+{
+    height: 175px;
+}
+.forma input,
+.forma textarea
+{
+    position: absolute;
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    margin: 0;
+    padding: 25px 16px 8px;
+
+    color: #6c6c6c;
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+    background-color: #ebeced;
+}
+.forma input.invalido.camp§o-lleno,
+.forma input.invalido.activo,
+.forma input.invalido,
+.forma textarea.invalido.camp§o-lleno,
+.forma textarea.invalido.activo,
+.forma textarea.invalido
+{
+    color: #d8313e;
+}
+.forma input.campo-lleno,
+.forma input.activo,
+.forma textarea.campo-lleno,
+.forma textarea.activo
+{
+    color: #333;
+}
+.forma input.activo ~ label,
+.forma input:focus ~ label,
+.forma textarea.activo ~ label,
+.forma textarea:focus ~ label
+{
+    font-size: 12px; 
+
+    top: 4px;
+}
+.forma textarea
+{
+    resize: vertical;
+}
+.forma label
+{
+    position: absolute;
+    z-index: 2;
+    top: 14px;
+    left: 16px;
+
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+
+    color: #6c6c6c;
+}
+.forma label.opcion
+{
+    position: static;
+    left: 0; 
+
+    display: block;
+}
+.forma label.correcto
+{
+    color: #15c525;
+}
+.forma label.error
+{
+    color: #f33;
+}
+.forma select
+{
+    display: block;
+
+    width: 100%;
+    margin: 16px 0;
+}
+
+.btn-enviar
+{
+    font-size: 1em;
+    line-height: 44px;
+    line-height: 36px;
+
+    display: block;
+    float: right;
+
+    height: 44px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    cursor: pointer;
+    -webkit-transition: all .5s ease, background-position 1ms;
+         -o-transition: all .5s ease, background-position 1ms;
+            transition: all .5s ease, background-position 1ms; 
+    text-align: center;
+
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    background: #47a0d8;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+}
+.btn-enviar:hover
+{
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+            box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .3);
+}
+
+.msj-forma
+{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+
+    display: none; 
+
+    text-align: center;
+}
+.msj-forma.success,
+.msj-forma.fail
+{
+    display: block;
+}
+.msj-forma.success
+{
+    color: #51ff39;
+}
+.msj-forma.fail
+{
+    color: #f33;
+}
+
+.recaptcha
+{
+    width: 304px;
+    margin: 0 auto 25px;
+}
+
+@media screen and (max-width: 1280px)
+{
+    .forma
+    {
+        padding: 75px;
+    }
+    .forma p,
+    .forma .msj-forma
+    {
+        padding: 0 0 25px;
+    }
+}
+
+@media screen and (max-width: 758px)
+{
+    .forma
+    {
+        padding: 75px 0 0;
+    }
+}
+
+
+/* Firefish */
+
+.enlace-miel {
+    text-decoration: underline; 
+    color: inherit; 
+    font-size: 25px; 
+    padding: 80px 100px 0px; 
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+    .locacion-nombre {
+        font-size: 2em;
+        left: 150px;
+    }
+    .enlace-miel {
+        font-size: 1em;
+        margin-top: -200px;
+        padding: 50px 50px 0px;
+    }
+
+}
+
+.correo a {
+    color: blue !important;
+}
+
+ .contacto img{
+    width: 100%;
+}
