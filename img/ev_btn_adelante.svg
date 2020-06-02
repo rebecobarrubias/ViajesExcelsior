@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="114px" viewBox="0 0 114 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ev_btn_adelante</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ev_btn_adelante">
+            <circle id="Oval" fill="#000000" opacity="0.4" cx="57" cy="57" r="56"></circle>
+            <path d="M0,57 C-3.85521638e-15,25.5197693 25.5197693,5.78282457e-15 57,0 C88.4802307,-5.78282457e-15 114,25.5197693 114,57 C114,88.4802307 88.4802307,114 57,114 C25.5334777,113.96693 0.033070466,88.4665223 0,57 L0,57 Z M2,57 C2,87.3756612 26.6243388,112 57,112 C87.3756612,112 112,87.3756612 112,57 C112,26.6243388 87.3756612,2 57,2 C26.6380465,2.03306805 2.03306805,26.6380465 2,57 L2,57 Z" id="Shape" fill="#FFFFFF"></path>
+            <polygon id="Shape" fill="#FFFFFF" points="47.72 80.75 71.69 57 47.72 33.25 46.31 34.67 68.84 57 46.31 79.33"></polygon>
+        </g>
+    </g>
+</svg>
